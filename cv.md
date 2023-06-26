@@ -25,17 +25,14 @@ I have learned more than in the last three years. And most importantly, I love i
 * VSCode;
 
 ### Soft skills:
-* Honesty;
-* Sociability;
-* Fast learner;
-* Desire for personal and career growth; 
-* Skill to work in team;
-* Ambition;
+* Analytical thinking;
+* Team work collaboration;
+* Active and strategic approach to learning;
+* Stress resistance; 
 
 ## Code example
-    
-javascript
-function sumNumbers(numbers) {
+
+```function sumNumbers(numbers) {
   let sum = 0;
   for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i];
@@ -43,6 +40,7 @@ function sumNumbers(numbers) {
   return sum;
 }
 //function that sums all the numbers in an array, if the array is empty it outputs 0
+```
 
 ## Work experience:
 *no work experience in this area yet*
