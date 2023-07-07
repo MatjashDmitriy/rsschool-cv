@@ -10,6 +10,10 @@ p{
     margin: 0;
     padding: 0;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #DCDCDC;
     font-family: 'Raleway', sans-serif;
@@ -21,6 +25,7 @@ body{
 .binder-clip{
     width: 200px;
     position: absolute;
+    z-index: 2;
 }
 
 .container{
@@ -33,6 +38,7 @@ body{
     box-shadow: 3px 5px 5px rgba(0, 0, 0, .5);
     min-height: 100%;
     border: 1px solid rgba(0, 0, 0, .2);
+    z-index: 1;
 }
 
 header{
@@ -99,7 +105,7 @@ main{
     align-items: center;
   }
   
-  .text {
+.text {
     color: white;
     font-size: 20px;
     padding: 20px;
@@ -107,13 +113,35 @@ main{
     transition: transform 0.3s ease;
   }
   
-  .project_card:hover .overlay {
+.project_card:hover .overlay {
     opacity: 1;
   }
   
-  .project_card:hover .text {
+.project_card:hover .text {
     transform: translateY(0);
   }
+  
+.hard_skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hard_skills_item img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.soft_skills{
+    display: flex;
+}
+
+.list{
+    line-height: 35px;
+    margin: 0;
+}
 
 footer{
     background-color: #1F1F1F;
