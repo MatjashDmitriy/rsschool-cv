@@ -1,4 +1,80 @@
-body{
-    background-color: #395cd6;
-    font-family: 'Rubik', sans-serif;
+a{
+    text-decoration: none;
 }
+
+ul,ol,li{
+    list-style: none;
+}
+
+body{
+    background-color: #DCDCDC;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.binder-clip{
+    width: 200px;
+    position: absolute;
+}
+
+.container{
+    width: 1024px;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 150px;
+    z-index: -1;
+    padding: 20px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, .5);
+    min-height: 100%;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-photo{
+    border: 2px solid #DCDCDC;
+    width: 35%;
+    border-radius: 50%;
+}
+
+.nav-list{
+   display: flex;
+}
+
+.nav-item{
+    cursor: pointer;
+}
+
+.nav-link{
+    margin: auto 6px;
+    color: #000000;
+}
+
+
+
+
+
+
+code{
+    display: block;
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    padding: 10px 60px;  
+}
+
+.code-header,
+.code-info{
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+main{
+    flex: 1 1 auto;
+} */
+
