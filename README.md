@@ -1,5 +1,5 @@
 ## link to CV markdown
 ### https://MatjashDmitriy.github.io/rsschool-cv/cv
 
-## link to CV
+## link to my CV
 ### https://MatjashDmitriy.github.io/rsschool-cv/
