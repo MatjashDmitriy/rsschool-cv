@@ -143,6 +143,26 @@ main{
     margin: 0;
 }
 
+.contact_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_item1{
+    display: flex;
+   justify-content: center;
+}
+
+.contact_item img{
+    width: 20px;
+    margin-right: 5px;
+}
+
+.contact_item span{
+    font-size: 15px;
+}
+
 footer{
     background-color: #1F1F1F;
     color: #FFFFFF;
