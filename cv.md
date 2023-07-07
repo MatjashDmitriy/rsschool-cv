@@ -52,7 +52,7 @@ function sumNumbers(numbers) {
 ```
 
 ## Work experience:
-*no work experience in this area yet*
+*I have no real development experience, but I have a couple of pet projects, one of which I made from the task of the last stage in rs-school*
 
 Here are some of my pet-projects:
 
